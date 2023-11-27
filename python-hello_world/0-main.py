@@ -1,1 +1,0 @@
-print("{:d} Battery street, {}".format(98, "San Francisco"))
