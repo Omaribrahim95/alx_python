@@ -11,6 +11,4 @@ def add(a, b):
     The sum of a and b.
   """
   return a + b
-
-
 print(add(1, 2))
