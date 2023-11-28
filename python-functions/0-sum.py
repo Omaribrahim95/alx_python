@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def add(a, b):
   """
   Adds two integers and returns the result.
@@ -11,6 +12,7 @@ def add(a, b):
   """
   return a + b
 
+add = __import__('0-sum').add
 # Test the function
 print(add(1, 2))  # Output: 3
 print(add(98, 0))  # Output: 98
